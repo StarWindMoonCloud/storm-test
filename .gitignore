@@ -1,0 +1,24 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+target/
+.classpath
+.project
+.settings
+test-output/
+
+# Project Files #
+*.idea/
+*.iml
+
+# tmp files
+*~
+
+# hidden file/directory
+.*
+
+# Generated sources
+serving/src/main/resources/rules/AviateRules.js
+serving/src/main/java/com/yahoo/slingstone/ace/serving/engine/AviateRules.scala
